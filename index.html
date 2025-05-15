@@ -1,15 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculator</title>
-    <link href="stylesheet.css" rel="stylesheet">
-</head>
-<body>
-
-
-    
+    <link href="stylesheet.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="calcualtor">
+      <input readonly id="display" />
+      <div id="keys">
+        <button onclick="appendFunction('+')">+</button>
+        <button onclick="appendFunction('7')">7</button>
+        <button onclick="appendFunction('8')">8</button>
+        <button onclick="appendFunction('9')">9</button>
+        <button onclick="appendFunction('-')">-</button>
+        <button onclick="appendFunction('4')">4</button>
+        <button onclick="appendFunction('5')">5</button>
+        <button onclick="appendFunction('6')">6</button>
+        <button onclick="appendFunction('*')">*</button>
+        <button onclick="appendFunction('1')">1</button>
+        <button onclick="appendFunction('2')">2</button>
+        <button onclick="appendFunction('3')">3</button>
+        <button onclick="appendFunction('/')">/</button>
+        <button onclick="appendFunction('0')">0</button>
+        <button onclick="appendFunction('.')">.</button>
+        <button onclick="calculate()">=</button>
+      </div>
+    </div>
     <script src="javascript.html"></script>
-</body>
+  </body>
 </html>
