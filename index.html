@@ -8,7 +8,7 @@
   </head>
   <body>
     <div id="calculator">
-      <input  id="display" readonly/>
+      <input  id="display" value ="" readonly/>
       <div id="keys">
         <button onclick="appendFunction('+')">+</button>
         <button onclick="appendFunction('7')">7</button>
@@ -26,9 +26,9 @@
         <button onclick="appendFunction('0')">0</button>
         <button onclick="appendFunction('.')">.</button>
         <button onclick="calculate()">=</button>
-        <button onclick="clear()">C</button>
+        <button onclick="clearDisplay()">C</button>
       </div>
     </div>
-    <script src="javascript.html"></script>
+    <script src="javascript.js"></script>
   </body>
 </html>
