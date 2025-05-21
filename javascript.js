@@ -3,6 +3,11 @@ const display = document.querySelector("#display");
 const operators = ["+", "-", "*", "/"];
 
 function appendFunction(key) {
+
+  // if(display.value.length >= 9){
+  //   return;
+  // }
+
   if (!isNaN(key)) {
     display.value += key;
     return;
